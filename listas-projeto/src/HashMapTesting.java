@@ -5,7 +5,7 @@ public class HashMapTesting {
 	public static void main(String[] args) {
 		HashMap<Integer, String> hmap = new HashMap<Integer, String>(); 
 		
-		hmap.put(1, "Aa"); 
+		hmap.put(1 , "Aa"); 
 		hmap.put(2, "Bb"); 
 		hmap.put(3, "Cc"); 
 		hmap.put(4, "Dd"); 
@@ -16,7 +16,18 @@ public class HashMapTesting {
 		hmap.put(9, "Ii"); 
 		hmap.put(10, "Jj"); 
 		
-		System.out.println("HashMap tem: " + hmap);
+		System.out.println("HashMap tem: " + hmap +"\n\n");
+		System.out.println("--------------------------------------------------------------------------");
+		
+		 Integer keyToSearch = 7;
+
+        if (hmap.containsKey( keyToSearch)){
+         System.out.println("Valor da Chave: " +keyToSearch+
+          " = "+ hmap.get(keyToSearch));
+        }else{
+               System.err.println("Chave não existe");
+        }
+
 		
 		
 	}

@@ -19,18 +19,12 @@ public class HashMapTesting {
 		System.out.println("HashMap tem: " + hmap +"\n\n");
 		System.out.println("--------------------------------------------------------------------------");
 		
-		 Integer keyToSearch1 = 7;
-		 Integer keyToSearch2 = 11;
-		 Integer keyToSearch3 = 7;
-        if (hmap.containsKey( keyToSearch1)){
-         System.out.println("Chave 1: " +keyToSearch1+
-          " = "+ hmap.get(keyToSearch1));
-        }else if(hmap.containsKey(keyToSearch2)) {
-        	  System.out.println("Chave 2: " +keyToSearch2+
-         " = "+ hmap.get(keyToSearch2));
-        }else if(hmap.containsKey(keyToSearch3)) {
-      	  System.out.println("Chave 2: " +keyToSearch3+
-          " = "+ hmap.get(keyToSearch3));
+		 Integer chaveProcura1 = 7;
+		 Integer chaveProcura2 = 6; 
+        if (hmap.containsKey( chaveProcura1) && hmap.containsKey(chaveProcura2)){
+         System.out.println("Chave 1: \n" + chaveProcura1 +"\n"+ "Chave 2:\n"+"\n"+ chaveProcura2);
+         System.out.println("Valor chave 1: \n" + hmap.get(chaveProcura1) +"\n Valor chave 2: \n"+ hmap.get(chaveProcura2) );
+   
         }else{
                System.err.println("Chave não existe");
         }

@@ -29,3 +29,19 @@ for(String nome : nomes){
   
 }
 
+**Para acessar elementos específicos, podemos utilizar:**
+String nome = nomes.get(0); 
+
+
+**Para percorrermos uma lista completa, precisamos saber quantos elementos
+temos nessa lista.** 
+
+for(int i =0; i < nomes.size(); i++){
+    nomes.get(1); 
+}
+
+
+**No Java 8, podemos percorrer assim:**
+nomes.forEach(nome -> {
+    System.out.printn(nome)
+})

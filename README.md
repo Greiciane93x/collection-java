@@ -12,7 +12,7 @@ String primeiroNome = "Assis";
 String segundoNome = "Ane"; 
 String terceiroNOme = "Greici"; 
 
-**para adicionar itens nessa lista, fazemos assim: **
+**para adicionar itens nessa lista, fazemos assim:**
 
 nomes.add(primeiroNome); 
 nomes.add(segundoNome); 

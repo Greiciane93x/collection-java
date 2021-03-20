@@ -1,4 +1,6 @@
-# Collection em Java
+# Collections em Java
+
+__Contém as principais funcionalidades para se trabalhar com conjunto de elementos (coleções).__
 __backup __
 
 

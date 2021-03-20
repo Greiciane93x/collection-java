@@ -37,7 +37,13 @@ SELECT * FROM USUARIO;
 SELECT LENGTH(CEP) FROM ENDERECO
 WHERE ID_USUARIO = 2; 
 
-SELECT LENGTH(CEP) FROM ENDERECO;
+ SELECT LENGTH(CEP) FROM ENDERECO;
 
-SELECT LENGTH(CEP) < 10 FROM ENDERECO; 
+ SELECT LENGTH(CEP) < 10 FROM ENDERECO; 
+                                                              
+ SELECT COUNT(NOME) FROM USUARIO; 
+                               
+  SELECT MAX(ID_USUARIO) FROM ENDERECO;                              
+  
+
 

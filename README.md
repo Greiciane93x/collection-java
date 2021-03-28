@@ -1,7 +1,6 @@
 # Collections em Java
 
 __Contém as principais funcionalidades para se trabalhar com conjunto de elementos (coleções).__<br/> 
-__backup __
 
 
 Para criar um objeto do tipo ArrayList, utilizando o operador new. 

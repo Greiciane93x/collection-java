@@ -11,7 +11,7 @@ Exemplo: ArrarList<String> nomes = new ArrayList<>(); <br/>
 
 >>String primeiroNome = "Assis";<br/> 
 >>String segundoNome = "Ane"; <br/> 
->>String terceiroNOme = "Greici"; <br/> 
+>>String terceiroNome = "Greici"; <br/> 
 
 **para adicionar itens nessa lista, fazemos assim:** <br/> 
 

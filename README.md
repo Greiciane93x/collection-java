@@ -76,6 +76,12 @@ temos nessa lista.**  <br/>
 >>contas[0] = cc1;<br/> 
 >>contas[1] = cc2;<br/> 
 
+# Injeção de dependência <br/> 
+dessas técnicas de Injeção de Dependências, conseguimos realizar a Inversão de Controle <br/> 
+e nos beneficiamos pois, com este desacoplamento, podemos reutilizar nosso código e também <br/> 
+fica extremamente fácil a escrita de testes automatizados pois podemos criar mocks destas <br/> 
+dependências e testar seus clients em situações controladas sem efeitos colaterais por <br/> 
+comportamentos inesperados.
 
 
 

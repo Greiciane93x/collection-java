@@ -84,5 +84,37 @@ fica extremamente fácil a escrita de testes automatizados pois podemos criar mo
 dependências e testar seus clients em situações controladas sem efeitos colaterais por <br/> 
 comportamentos inesperados." 
 
+Autoboxing e Unboxing 
+
+int[] idades = new int[5];  //arrays primitivos 
+String[] nomes = new String[5];  //arrays de referência 
+
+int idade = 29; 
+//Integer -- transforma o primitivo em objeto, e essa transformação se chama autoboxing
+Integer idadeRef = new Integer(29);
+List<Integer> numeros = new ArrayList<Integer>();  
+List numeros = new ArrayList(); 
+numeros.add(idadeRef); 
+
+
+# Autoboxing e Unboxing <br/> 
+
+int[] idades = new int[5];  //arrays primitivos <br/> 
+String[] nomes = new String[5];  //arrays de referência <br/>  
+
+int idade = 29; <br/> 
+_//Integer -- transforma o primitivo em objeto, e essa transformação se chama autoboxing _ <br/> 
+Integer idadeRef = new Integer(29); <br/> 
+List<Integer> numeros = new ArrayList<Integer>(); <br/> 
+List numeros = new ArrayList(); <br/> 
+numeros.add(idadeRef); <br/> 
+
+
+
+//Unboxing <br/> 
+Integer idadeRef = Integer.valueOf(29); <br/> 
+//Autoboxing <br/> 
+int valor = idadeRef.intValue();  <br/> 
+
 
 

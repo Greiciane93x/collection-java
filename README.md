@@ -141,7 +141,7 @@ public static void main(String[] args){<br/>
   
   lista.sort(); <br/> 
   
-  _NaoSeiainda.class_ implements Comparator<Conta{<br/> 
+  _NumeroDaContaComparator.class_ implements Comparator<Conta{<br/> 
     @Override <br/> 
     public int compare(Conta c1, Conta c2){ <br/> 
     

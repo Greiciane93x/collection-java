@@ -115,6 +115,49 @@ numeros.add(idadeRef); <br/>
 Integer idadeRef = Integer.valueOf(29); <br/> 
 //Autoboxing <br/> 
 int valor = idadeRef.intValue();  <br/> 
+<hr/> 
 
+_Comparator.class_ <br/> 
+
+# Ordenando listas <br/> 
+public static void main(String[] args){<br/> 
+  Conta cc1 = new ContaCorrente(22,33); <br/> 
+  cc1.deposita(333.0); <br/> 
+  
+  Conta cc2 = new ContaPoupanca(22,44); <br/> 
+  cc2.deposita(444.0); <br/> 
+  
+  Conta cc3 = new ContaCorrente(22,11); <br/> 
+  cc1.deposita(111.0); <br/> 
+  
+  Conta cc4 = new ContaPoupanca(22,22); <br/> 
+  cc1.deposita(222.0); <br/> 
+  
+  List<Conta> lista = new ArrayList<>(); <br/>
+  lista.add(cc1); <br/> 
+  lista.add(cc2); <br/> 
+  lista.add(cc3); <br/> 
+  lista.add(cc4); <br/> 
+  
+  lista.sort(); <br/> 
+  
+  _NaoSeiainda.class_ implements Comparator<Conta{<br/> 
+    @Override <br/> 
+    public int compare(Conta c1, Conta c2){ <br/> 
+    
+      return 0; <br/> 
+      }<br/> 
+    
+    }> <br/> 
+  
+  
+  
+  
+ 
+ 
+  
+  
+
+}
 
 

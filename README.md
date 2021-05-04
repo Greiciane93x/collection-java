@@ -149,28 +149,18 @@ public static void main(String[] args){<br/>
   
   
   _NumeroDaContaComparator.class_ implements Comparator<Conta{<br/> 
-    @Override <br/> 
-    public int compare(Conta c1, Conta c2){ <br/> 
-        if(c1.getNumero() < c2.getNumero()){ <br/> 
-            return -1; <br/> 
-        }<br/> 
-        if(c1.getNumero() > c2.getNumero()){ <br/> 
-            return 1; <br/> 
-        }<br/> 
-        
-      return 0; <br/> 
-      }<br/> 
-    
-    }> <br/> 
-  
-  
-  
-  
- 
- 
-  
-  
+  @Override <br/> 
+  public int compare(Conta c1, Conta c2){ <br/> 
+  if(c1.getNumero() < c2.getNumero()){ <br/> 
+    return -1; <br/> 
+  }<br/> 
+  if(c1.getNumero() > c2.getNumero()){ <br/> 
+  return 1; <br/> 
+  }<br/> 
+  return 0; <br/> 
+  }<br/> 
 
-}
+  }> <br/> 
+  }
 
 

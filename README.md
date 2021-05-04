@@ -178,3 +178,29 @@ class TitularDaContaComparator implements Comparator<Conta>{<br/>
   }<br/>
   }<br/> 
   
+  <hr/> 
+  
+  
+  # Classe anônima <br/> 
+  lista.sort(new Comparator<Conta>(){<br/> 
+    @Override <br/> 
+    public int compare(Conta c1, Conta c2){ <br/> 
+      return Integer.compare(c1.getNumero(), c2.getNumero()); <br/> 
+      } <br/> 
+    } <br/> 
+  ); <br/> 
+  
+Comparator<Conta> comp = new Comparator<Conta>(){<br/> 
+  @Override <br/> 
+  public int compare(Conta c1, Conta c2){ <br/> 
+    String nomeC1 = c1.getTitular().getNome(); <br/> 
+    String nomeC2 = c2.getTitular().getNome(); <br/> 
+    return nomeC1.compareTo(nomeC2); <br/> 
+    }<br/> 
+  }<br/> 
+
+for(Conta conta : lista){ <br/> 
+  System.out.println(conta + ", "+ conta.getTitular().getNome()); <br/> 
+      } <br/> 
+    } <br/> 
+  } <br/> 

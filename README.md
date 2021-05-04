@@ -169,12 +169,12 @@ public static void main(String[] args){<br/>
 class TitularDaContaComparator implements Comparator<Conta>{<br/> 
   @Override <br/> 
   public int compare(Conta c1, Conta c2){<br/> 
-  String nomeC1 = c1.getTitular().getNome(); 
-  String nomeC2 = c2.getTitular().getNome(); 
+  String nomeC1 = c1.getTitular().getNome(); <br/> 
+  String nomeC2 = c2.getTitular().getNome(); <br/> 
   
-  return nomeC1.compareTo(nomeC2); 
+  return nomeC1.compareTo(nomeC2); <br/> 
   
-  return 0; 
+  return 0; <br/> 
   }<br/>
   }<br/> 
   

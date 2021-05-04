@@ -138,8 +138,15 @@ public static void main(String[] args){<br/>
   lista.add(cc2); <br/> 
   lista.add(cc3); <br/> 
   lista.add(cc4); <br/> 
+
+  NumeroDaContaComparator comparator = new NumeroDaContaComparator();  <br/> 
   
-  lista.sort(); <br/> 
+  lista.sort(comparator); <br/> 
+  System.out.println("---------------"); <br/> 
+   for(Conta conta : lista){ <br/> 
+     System.out.println(conta); <br/> 
+  } <br/> 
+  
   
   _NumeroDaContaComparator.class_ implements Comparator<Conta{<br/> 
     @Override <br/> 
@@ -151,7 +158,6 @@ public static void main(String[] args){<br/>
             return 1; <br/> 
         }<br/> 
         
-    
       return 0; <br/> 
       }<br/> 
     

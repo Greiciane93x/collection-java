@@ -161,6 +161,20 @@ public static void main(String[] args){<br/>
   }<br/> 
 
   }> <br/> 
-  }
+  } <br/> 
+
+<hr/> 
 
 
+class TitularDaContaComparator implements Comparator<Conta>{<br/> 
+  @Override <br/> 
+  public int compare(Conta c1, Conta c2){<br/> 
+  String nomeC1 = c1.getTitular().getNome(); 
+  String nomeC2 = c2.getTitular().getNome(); 
+  
+  return nomeC1.compareTo(nomeC2); 
+  
+  return 0; 
+  }<br/>
+  }<br/> 
+  

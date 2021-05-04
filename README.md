@@ -204,3 +204,10 @@ for(Conta conta : lista){ <br/>
       } <br/> 
     } <br/> 
   } <br/> 
+
+<hr/> 
+# Lambdas <br/> 
+lista.sort( (Conta c1, Conta c2) -> { <br/> 
+  return Integer.compare(c1.getNumero(), c2.getNumero()); <br/> 
+  } <br/> 
+); <br/> 

@@ -26,10 +26,8 @@ public class HashMapTesting {
          System.out.println("Valor chave 1: \n" + hmap.get(chaveProcura1) +"\n Valor chave 2: \n"+ hmap.get(chaveProcura2) );
    
         }else{
-               System.err.println("Chave não existe");
-        }
-
-		
+               System.err.println("Chave nï¿½o existe");
+        }	
 		
 	}
 }

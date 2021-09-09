@@ -19,15 +19,19 @@ public class HashMapTesting {
 		System.out.println("HashMap tem: " + hmap +"\n\n");
 		System.out.println("--------------------------------------------------------------------------");
 		
-		 Integer chaveProcura1 = 7;
-		 Integer chaveProcura2 = 6; 
-        if (hmap.containsKey( chaveProcura1) && hmap.containsKey(chaveProcura2)){
-         System.out.println("Chave 1: \n" + chaveProcura1 +"\n"+ "Chave 2:\n"+"\n"+ chaveProcura2);
-         System.out.println("Valor chave 1: \n" + hmap.get(chaveProcura1) +"\n Valor chave 2: \n"+ hmap.get(chaveProcura2) );
+		// Integer chaveProcura1 = 7;
+		// Integer chaveProcura2 = 6; 
+       //if (hmap.containsKey( chaveProcura1) && hmap.containsKey(chaveProcura2)){
+        // System.out.println("Chave 1: \n" + chaveProcura1 +"\n"+ "Chave 2:\n"+"\n"+ chaveProcura2);
+        // System.out.println("Valor chave 1: \n" + hmap.get(chaveProcura1) +"\n Valor chave 2: \n"+ hmap.get(chaveProcura2) );
    
-        }else{
-               System.err.println("Chave n�o existe");
-        }	
+  	//    }else{
+      //         System.err.println("Chave n�o existe");
+      //  }	
 		
+		for(Integer key : hmap.keySet()){
+			String value = hmap.get(key); 
+			System.out.println(key + "=" + value); 
+		}
 	}
 }
